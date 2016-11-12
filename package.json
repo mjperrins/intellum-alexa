@@ -1,18 +1,37 @@
 {
-  "name": "alexa-app-server",
-  "version": "2.2.4",
-  "description": "A web server module for Alexa (Amazon Echo) apps (skills) using Node.js, Express, and alexa-app",
-  "main": "index.js",
-  "author": "Matt Kruse",
+  "name": "intellum-alexa",
+  "version": "1.0.0",
+  "description": "Intellum Alexa Server",
+  "main": "server.js",
   "dependencies": {
-    "alexa-app": "^2.1.0",
-    "bluebird": "^2.9.34",
-    "body-parser": "~1.0.1",
-    "ejs": "~0.7.1",
-    "express": "~4.0.0",
-    "hotswap": "^1.1.0"
+    "alexa-app-server": "^2.2.4",
+    "cfenv": "1.0.x"
   },
-  "devDependencies": {
-    "supervisor": "^0.6.0"
-  }
+	"private": true,
+	"repository": {},
+	"engines": {
+		"node": "4.x"
+	}, 
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenji776/AlexaServer1.git"
+  },
+  "keywords": [
+    "alexa",
+    "test",
+    "server",
+    "echo"
+  ],
+  "author": "Matthew Perrins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xxx"
+  },
+  "homepage": "https://github.com/xxx"
 }
