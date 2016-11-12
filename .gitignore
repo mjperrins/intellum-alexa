@@ -19,6 +19,8 @@ $RECYCLE.BIN/
 
 node_modules
 
+.idea
+
 # =========================
 # Operating System Files
 # =========================

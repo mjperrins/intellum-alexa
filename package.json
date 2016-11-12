@@ -21,13 +21,16 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kenji776/AlexaServer1.git"
-  },
+  },,
   "keywords": [
     "alexa",
     "test",
     "server",
     "echo"
   ],
+  "engines": {
+    "node": "4.x"
+  }
   "author": "Matthew Perrins",
   "license": "MIT",
   "bugs": {
