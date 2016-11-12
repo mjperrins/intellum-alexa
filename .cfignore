@@ -1,0 +1,14 @@
+logs
+node_modules
+test
+LICENSE.txt
+manifest*.yml
+public/**/*.js.map
+.idea
+.DS_Store
+.eslintrc
+.git*
+.git
+.apiconnect
+.generator
+readme
